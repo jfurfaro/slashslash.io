@@ -1,0 +1,14 @@
+{
+  "name": "slashslash.io",
+  "version": "0.1.0",
+  "description": "SlashSlash.io Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint content"
+  },
+  "author": "Joe Furfaro",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^5.4.0"
+  }
+}

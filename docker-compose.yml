@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  ghost:
+    build: .
+    image: slashslash:local
+    tty: true
+    volumes:
+      - ./content/data:/var/lib/ghost/content/data
+    ports:
+      - "9000:2368"
