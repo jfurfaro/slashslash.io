@@ -9,3 +9,5 @@ services:
       - ./content/data:/var/lib/ghost/content/data
     ports:
       - "9000:2368"
+    environment:
+      - NODE_ENV=development
