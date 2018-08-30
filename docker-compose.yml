@@ -11,3 +11,8 @@ services:
       - "9000:2368"
     environment:
       - NODE_ENV=development
+      - url=http://localhost:9000
+      - mail__transport=smtp
+      - mail__options__service=Mailgun
+      - mail__options__auth__user=postmaster@mg.slashslash.io
+      - mail__options__auth__pass=$SLASHSLASH_MG_PASS
